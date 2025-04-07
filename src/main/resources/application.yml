@@ -7,6 +7,10 @@ spring:
   # 默认 dev 环境
   profiles:
     active: dev
+  # 设置时间格式
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: Asia/Shanghai
   # 支持 swagger3
   mvc:
     pathmatch:
